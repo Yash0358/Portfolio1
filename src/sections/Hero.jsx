@@ -1,5 +1,8 @@
 export const Hero = () => {
-  return <section>
-   
+  return <section className=" relative min-h-screen overflow-hidden flex items-center">
+    {/* bg */}
+    <div>
+      <img src="/hero-bg.jpg" alt="" />
+    </div>
   </section>
 }
