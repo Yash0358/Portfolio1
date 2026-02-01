@@ -66,7 +66,10 @@ export const Hero = () => {
             <Button size="lg">
               Contact Me <ArrowRightCircle className='h-5 w-5' />
             </Button>
-            <AnimatedBorderButton />
+            <AnimatedBorderButton>
+               <Download  className='h-5 w-5' />
+                    Download CV
+            </AnimatedBorderButton>
            </div>
             {/* social links */}
             <div className='flex items-center gap-6 animate-fade-in animation-delay-500'>
