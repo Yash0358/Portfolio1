@@ -6,6 +6,7 @@ import {Contacts} from './sections/Contacts'
 import {Experience} from './sections/Experience'
 import {Testimonials} from './sections/Testimonials'
 import {Projects} from './sections/Projects'
+import {Footer} from './layout/Footer'
 
 const App = () => {
   return (
@@ -15,10 +16,11 @@ const App = () => {
         <Hero />
         <About />
         <Projects />
-        <Contacts />
         <Experience />
         <Testimonials />
+        <Contacts />
       </main>
+      <Footer />
     </div>
   )
 }
