@@ -14,13 +14,14 @@ const App = () => {
       <main>
         <Hero />
         <About />
+        <Projects />
         <Contacts />
         <Experience />
         <Testimonials />
-        <Projects />
       </main>
     </div>
   )
 }
 
 export default App
+  
