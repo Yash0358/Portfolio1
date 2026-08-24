@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '@/components/button';
+import { Button } from '@/components/Button';
 import { ArrowRight, ArrowRightCircle ,Download ,Github,Linkedin,Instagram,Twitter, ChevronDown  } from 'lucide-react';
 import { AnimatedBorderButton } from '../components/AnimatedBorderButton';
 
